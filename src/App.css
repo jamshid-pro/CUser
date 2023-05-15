@@ -1,0 +1,58 @@
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+.create-btn {
+    position: fixed;
+    top: 50%;
+    left:-22px;
+    transform: translateY(-50%);
+    transform: rotate(-90deg);
+    margin: 0;
+    padding: 6px 12px;
+    background-color: crimson;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+}
+
+.create-btn:hover {
+    background-color: brown;
+    cursor: pointer;
+}
+
+.no-user {
+    opacity: .2;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    user-select: none;
+}
+
+.no-user h2 {
+    font-size: 120px;
+}
+
+@media (max-width:1200px) {
+    .no-user h2 {
+        font-size: 100px;
+    }
+}
+
+@media (max-width:880px) {
+    .no-user h2 {
+        font-size: 65px;
+    }
+}
+
+@media (max-width:580px) {
+    .no-user h2 {
+        font-size: 40px;
+    }
+}
